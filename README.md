@@ -1,21 +1,6 @@
 # JS-IOS-
 JS仿IOS弹窗
 Demo: http://magwing.tpddns.cn:81/IOSUI
-<!DOCTYPE html> 
-<html> 
-<head> 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>MAGWING HTML 仿IOS 弹窗 DEMO</title> 
-<script src="js/jquery.js"></script>
-<script src="js/window.js"></script>
-<script>
-function view(type){
-code='if(callback==true){win("提示","你点击了确定");}else{win("提示","你点击了取消");}';
-win("MAGWING 仿IOS弹窗 DEMO","这里是内容",type);
-}
-</script>
-</head> 
 <body>
 <p style="font-size:30px;color:#b5b5b5;text-align:center">
 仿IOS 弹窗
