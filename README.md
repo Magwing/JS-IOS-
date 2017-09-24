@@ -12,13 +12,15 @@ View:<br><a onclick="view('')">默认</a> <a onclick="view('choose')">选择</a>
 食用方法：
 <div style="font-size:20px;color:#b5b5b5;">
 <br>
-<h1>
+<h1 href="#pz">
 一.配置
 </h1>
+<p id="pz">
 1.引入JS:&lt;script src="js/jquery.js"&gt;&lt;/script&gt;&lt;script src="js/window.js"&gt;&lt;/script&gt;
 <br>
 2.设置弹窗后模糊和变暗的对象，用&lt;body&gt;嵌套起来
 <br>
+</p>
 <h1>二.调用函数</h1>
 1.函数名:win();<br>
 参数:win(title,text,type);
